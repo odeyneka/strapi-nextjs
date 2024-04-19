@@ -53,11 +53,9 @@ const Blogs = () => {
         )}
       </div>
 
-      {(!showForm && blogs.length) && (
-        <button onClick={() => setShowForm(true)} className="hidden mt-5 px-5 py-2 text-white text-sm bg-indigo-500 font-semibold mx-auto rounded-md">
-          Add New
-        </button>
-      )}
+      <button onClick={() => setShowForm(true)} className="hidden mt-5 px-5 py-2 text-white text-sm bg-indigo-500 font-semibold mx-auto rounded-md">
+        Add New
+      </button>
     </div>
   );
 };
