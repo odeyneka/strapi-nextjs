@@ -18,7 +18,7 @@ const BlogCard = ({ blog }: any) => {
             className="rounded-lg object-cover"
           />
         </div>
-        <div className="p-2 my-auto">
+        <div className="p-2">
           <h2 className="text-lg line-clamp-3 font-semibold mb-2 overflow-ellipsis" dangerouslySetInnerHTML={{__html: blog.attributes.Title}}></h2>
           <p className="text-gray-600 line-clamp-4" dangerouslySetInnerHTML={{__html: blog.attributes.Description}}></p>
         </div>
